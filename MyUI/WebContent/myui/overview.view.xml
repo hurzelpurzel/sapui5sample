@@ -1,0 +1,37 @@
+<core:View id="overview" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.ui.commons" controllerName="myui.overview" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:com="sap.ui.commons">
+
+
+
+
+
+
+	<Table xmlns="sap.ui.table" id="employeesTable"  >
+
+		<columns>
+			<Column xmlns="sap.ui.table">
+				<label>
+					<Label xmlns="sap.ui.commons" text="First Name"></Label>
+				</label>
+				<template>
+					<TextField xmlns="sap.ui.commons" value="{FirstName}"></TextField>
+				</template>
+			</Column>
+			<Column xmlns="sap.ui.table">
+				<label>
+					<Label xmlns="sap.ui.commons" text="Last Name"></Label>
+				</label>
+				<template>
+					<TextField xmlns="sap.ui.commons" value="{LastName}"></TextField>
+				</template>
+			</Column>
+		</columns>
+
+
+
+
+	</Table>
+	
+ 
+</core:View>

@@ -1,0 +1,42 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.ui.commons">
+
+	<Grid xmlns="sap.ui.layout" id="grid" busy="false"
+		busyIndicatorDelay="1000" visible="true" width="100%" vSpacing="1"
+		hSpacing="1" position="Left" defaultSpan="L3 M6 S12" defaultIndent="L0 M0 S0"
+		containerQuery="false">
+		<tooltip></tooltip> <!-- sap.ui.core.TooltipBase -->
+		<dependents></dependents> <!-- sap.ui.core.Control, since 1.19 -->
+		<content>
+
+
+
+			<TextField editable="false" xmlns="sap.ui.commons" value="{FirstName}">
+			
+
+			</TextField>
+			<TextField editable="false" xmlns="sap.ui.commons" value="{LastName}">
+				
+			</TextField>
+			<TextField editable="false" xmlns="sap.ui.commons" value="{Address}">
+				
+			</TextField>
+			<TextField editable="false" xmlns="sap.ui.commons" value="{PostalCode}">
+				
+			</TextField>
+			<TextField editable="false" xmlns="sap.ui.commons" value="{City}">
+				
+			</TextField>
+		</content> <!-- sap.ui.core.Control -->
+	</Grid>
+
+
+
+
+
+
+
+
+
+
+</core:View>
